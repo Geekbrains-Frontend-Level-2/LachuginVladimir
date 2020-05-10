@@ -1,0 +1,25 @@
+{
+  "name": "lachuginvladimir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir/issues"
+  },
+  "homepage": "https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir#readme"
+}
