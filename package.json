@@ -13,5 +13,13 @@
   },
   "author": "",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir/issues"
+  },
+  "homepage": "https://github.com/Geekbrains-Frontend-Level-2/LachuginVladimir#readme"
 }
