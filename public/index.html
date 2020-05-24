@@ -12,10 +12,37 @@
       <div class="cart">
         <a class="btn btn_primary">Корзина</a>
       </div>
+      <a class="btn_form" id="btnCloce" >обратная связь</a>
     </header>
+    <form class="form" id="feedback" name="feedback" method="POST">
+      <div class="form-list form-list_contact" id="formBlock">
+
+          <label>Ваше имя</label>
+          <div class="input__block">
+            <input class="form-control" type="text" name="username" maxlength="30" value="">
+          </div>
+
+          <label>Электронная почта</label>
+          <div class="input__block">
+            <input class="form-control" type="text" name="usermail" maxlength="50" value="">
+          </div>
+
+          <label>Телефон</label>
+          <div class="input__block">
+            <input class="form-control" type="text" name="userphone" maxlength="50" value="">
+          </div>
+
+          <div class="input__block">
+            <a class="btn_form" id="send_mess" type="submit">отправить сообщение</a>
+          </div>
+          <div class="btn_form" id="btnClose" >закрыть</div>
+        </div>
+    </form>
     <main>
       <h1>Список товаров</h1>
     </main>
     <script src="script.js"></script>
+    <script src="modals.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>

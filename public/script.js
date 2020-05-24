@@ -141,6 +141,7 @@ class Cart extends Renderer {
       `
     }
   }
+  // 
   totalCostTemplate () {
     let summaryContainer = document.createElement('.cart__total')
     if (!summaryContainer) {
