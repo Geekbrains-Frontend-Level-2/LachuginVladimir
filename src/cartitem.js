@@ -23,7 +23,17 @@ export default class CartItem extends Renderer {
         })
     }
   
-    dec () {}
+    dec () {
+      if(this._counter = 1) {
+        this.dec
+      } else{
+        return Promise.resolve(this._counter--)
+          .then(() => {
+            this.render()
+          })
+      }
+
+    }
   
     del () {}
   
@@ -32,9 +42,14 @@ export default class CartItem extends Renderer {
       if (!this._template) {
         return
       }
-  
+      
       this._template.innerHTML = `<div class="cart__item">
         ${this._data.title} x ${this._counter} = ${this.totalPrice}
-      </div>`
+      </div>
+      <div id="del">удалить</div>
+      `
+
+      const decbtn = document.getElementById('id')
     }
+    
   }

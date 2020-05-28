@@ -1,5 +1,5 @@
 import Renderer from './renderer'
-import CartItem from './cartitem'
+import CartItem from './cartItem'
 
 export default class Cart extends Renderer {
     constructor (root) {
