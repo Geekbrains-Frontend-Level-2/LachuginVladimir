@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "nodemon": "^2.0.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
     "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
@@ -15,7 +18,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "test": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "webpack",
     "dev": "webpack-dev-server --config ./webpack.dev.config"
