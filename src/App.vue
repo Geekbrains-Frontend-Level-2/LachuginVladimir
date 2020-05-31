@@ -13,11 +13,14 @@
         :key="index"
         :title="item.title" :price="item.price"
       />
+
     </main>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 import Item from './Item.vue'
 export default {
   data () {
@@ -42,6 +45,11 @@ export default {
   },
   components: {
     Item,
+  },
+  computed: {
+    ...mapGetters('goods', [
+      'getData',
+    ])
   }
 }
 </script>
